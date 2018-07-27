@@ -1,2 +1,0 @@
-# Poster
-Grid practice
