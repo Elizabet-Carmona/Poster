@@ -1,16 +1,16 @@
 :root {
-    --red: #BC3034;
-    --orange: #C6492F;
-    --purple: #4A0D2C;
-    --pink: #BB3034;
+  --red: #BC3034;
+  --orange: #C6492F;
+  --purple: #4A0D2C;
+  --pink: #BB3034;
 }
 
 body {
-    width: 100vw;
-    height : 100vh;
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: bolder;
-    background-color:#771927;
+  width: 100vw;
+  height : 100vh;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: bolder;
+  background-color:#771927;
 }
 
 .poster {
@@ -25,38 +25,68 @@ margin: 0 auto;
 
 }
 
-.triangulo {
-  clip-path: polygon(0 0, 95% 0, 0 95%);
-  background-color: var(--orange);
-  border-right: 0px solid #771927;   
+.triangle {
+clip-path: polygon(0 0, 95% 0, 0 95%);
+background-color: var(--orange);
+border-right: 0px solid #771927;   
 }
 
-.cuadrado{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--red);
-  font-size: 6em;
-  color: #771927;
-   border-right: 8px solid #771927;
- }
-
-.cuadrado2{
-  background-color: var(--purple);
-  border-bottom: 8px solid #771927;
-  
-  
+.squared{
+display:flex;
+justify-content: center;
+align-items: center;
+background-color: var(--red);
+font-size: 6em;
+color: #771927;
+border-right: 8px solid #771927;
+border-bottom: 8px solid #771927;
 }
 
-.circulo{
- clip-path: circle(40% at 50% 50%);
- background-color: #fff;
+
+
+.squared2{
+display:flex;
+background-color: var(--purple);
+border-bottom: 8px solid #771927;
+justify-content: center;
+align-items: center;
+font-size: 6em;
+color: #771927;
+
 
 }
 
-.cuadrado3{
-  background-color: var(--orange);
-  border-bottom: 8px solid #771927;
-  
-  
+.circle{
+clip-path: circle(40% at 50% 50%);
+background-color: var(--pink);
+width: 200px;
+height: 200px;
+
+}
+
+.squared3{
+background-color: var(--orange);
+border-bottom: 8px solid #771927;
+
+
+}
+
+.squared4{
+display:flex;
+background-color: var(--purple);
+border-bottom: 8px solid #771927;
+border-right: 8px solid #771927;
+justify-content: center;
+align-items: center;
+font-size: 6em;
+color: #771927;
+
+
+}
+
+p{
+border: 12px solid #771927;
+font-weight:lighter;
+font-size: 14px;
+color: var(--pink);
 }
